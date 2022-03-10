@@ -1,0 +1,21 @@
+import java.util.*;
+class p13
+{
+	public static void main(String[]args)
+	{
+		
+		for(int i=65; i<=69; i++)
+		{
+			for(int j=1; j<=70-i; j++)
+			{
+			System.out.print(" ");
+			}
+			for(int j=65; j<=65+i; j++)
+			{
+			System.out.print(i+" ");
+			}
+		System.out.println();
+		}
+	
+	}
+}
