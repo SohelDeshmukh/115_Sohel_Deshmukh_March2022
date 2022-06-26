@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            .spinner {
+                border: 16px solid #f3f3f3;
+                border-top: 16px solid #3498db;
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                animation: spin 2s linear infinite;
+            }
+
+            @keyframes spin {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <h3>CheckBox</h3>
+        <input type="checkbox">
+        <input type="checkbox"><br><br>
+        <h3>DropDown</h3>
+        <select>
+            <option value="">Choice 1</option>
+            <option value="">Choice 2</option>
+            <option value="">Choice 3</option>
+        </select><br><br>
+        <h3>Spinner</h3>
+        <div class="spinner"></div><br><br>
+        <h3>Slider</h3>
+        <div class="slidecontainer">
+            <p>Default range slider:</p>
+            <input type="range" min="1" max="100" value="50">
+        </div>
+        <br><br>
+        <h3>TextArea</h3>
+        <textarea cols="30" rows="10"></textarea>
+    </body>
+
+</html>
