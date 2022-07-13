@@ -1,0 +1,36 @@
+import java.util.*;
+
+class p4
+{
+	public static void main (String []args)
+	{
+	int i,j,k,x,y,z,p,q,r,s,n1,n2,n3,n4,n5,n6;
+	
+	Scanner Testdata = new Scanner (System.in);
+	
+	i = Testdata.nextInt();
+	j = Testdata.nextInt();
+	k = Testdata.nextInt();
+	System.out.println(-i+j*k);
+	
+	x = Testdata.nextInt();
+	y = Testdata.nextInt();
+	z = Testdata.nextInt();
+	System.out.println((x+y)%z);
+	
+	p = Testdata.nextInt();
+	q = Testdata.nextInt();
+	r = Testdata.nextInt();
+	s = Testdata.nextInt();
+	System.out.println(p+((-q*r)/s));
+	
+	n1 = Testdata.nextInt();
+	n2 = Testdata.nextInt();
+	n3 = Testdata.nextInt();
+	n4 = Testdata.nextInt();
+	n5 = Testdata.nextInt();
+	n6 = Testdata.nextInt();
+	System.out.println(n1+n2/n3*n4-n5%n6);
+	
+	}
+}
